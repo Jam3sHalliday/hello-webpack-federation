@@ -1,4 +1,5 @@
-import 'products/ProductsIndex';
-import 'cart/CartShow';
+import { product } from 'products/ProductsIndex';
+import { cart } from 'cart/CartShow';
 
-console.log('container')
+product(document.querySelector('#prd-products'));
+cart(document.querySelector('#prd-cart'));
